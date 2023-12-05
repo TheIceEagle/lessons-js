@@ -41,7 +41,7 @@
 <style>
   .switch {
     --slider-size: 75;
-    --slider-color: var(--bg-primary-color);
+    --slider-color: var(--element-primary-color);
     --unchecked-color: var(--void-color);
     --checked-color: var(--active-color);
 
@@ -72,5 +72,6 @@
     display: inline-block;
     width: 3rem;
     height: 1.5rem;
+    margin-left: 1rem;
   }
 </style>

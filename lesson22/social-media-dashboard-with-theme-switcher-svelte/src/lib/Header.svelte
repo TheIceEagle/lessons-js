@@ -1,33 +1,37 @@
-<script lang="ts">
-  import DarkModeSwitch from "./lib/DarkModeSwitch.svelte";
+<script>
+  import DarkModeSwitch from "./DarkModeSwitch.svelte";
 </script>
 
 <header>
-  <div class="header-container">
-    <section class="title">
-      <h1>Social Media Dashboard</h1>
-      <h3>Total Followers: 23,004</h3>
-    </section>
-    <section class="dark-switch">
+  <div class="outer-container">
+    <div class="inner-container">
+      <hgroup class="title">
+        <h1>Social Media Dashboard</h1>
+        <h2>Total Followers: 23,004</h2>
+      </hgroup>
       <DarkModeSwitch />
-    </section>
+    </div>
   </div>
 </header>
 
-<main></main>
-
 <style>
   header {
-    padding: 2.25rem 1.5rem 5.25rem 1.5rem;
+    padding: 2.25rem 1.5rem clamp(5.25rem, 3.4537rem + 8.8161vw, 9.625rem)
+      1.5rem;
     border-radius: 0 0 1.25rem 1.25rem;
     background-color: var(--bg-secondary-color);
   }
 
-  .header-container {
+  .outer-container {
     container: header / inline-size;
     max-width: var(--container-max-width);
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .title {
@@ -44,12 +48,26 @@
       line-height: normal;
     }
 
-    & h3 {
+    & h2 {
       color: var(--text-secondary-color);
       font-size: 0.875rem;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+    }
+  }
+
+  @container header (width > 30rem) {
+    .inner-container {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .title {
+      flex: 1 1 auto;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
     }
   }
 </style>
