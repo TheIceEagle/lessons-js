@@ -21,7 +21,7 @@ input[type="reset"] {
 
 body {
   font-family: "Manrope Variable", sans-serif;
-  background-color: tomato;
+  background-color: var(--bg-container-color);
   color: var(--text-primary-color);
 }
 
