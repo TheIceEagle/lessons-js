@@ -1,0 +1,32 @@
+.main {
+    margin-top: clamp(-6.75rem, 0.6555rem - 10.5793vw, -1.5rem);
+    padding: 0 1.5rem clamp(2.8125rem, 1.8687rem + 4.0268vw, 4.6875rem) 1.5rem;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    container: main / inline-size;
+    max-width: var(--container-max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.supporters {
+    margin-bottom: 2.875rem;
+}
+
+.overview {
+    & h3 {
+        color: var(--text-secondary-color);
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 1.5rem;
+    }
+}
