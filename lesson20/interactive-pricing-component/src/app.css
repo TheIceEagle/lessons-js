@@ -1,0 +1,14 @@
+:root {
+  --text-primary-color: hsla(226, 36%, 25%, 1);
+  --text-secondary-color: hsla(226, 20%, 60%, 1);
+
+  --main-shadow-color: hsla(229.7, 29.3%, 61.2%, 0.15);
+
+  --accent-color: hsla(174, 77%, 80%, 1);
+  --void-color: hsla(225, 64%, 95%, 1);
+}
+
+body {
+  font-family: "Manrope Variable", sans-serif;
+  color: var(--text-primary-color);
+}
