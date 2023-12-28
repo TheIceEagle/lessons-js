@@ -1,0 +1,25 @@
+:root {
+  /* TODO: change to hsla */
+  --main-bg-color: hsla(185, 41%, 84%, 1);
+  --box-bg-color: hsla(0, 0%, 100%, 1);
+  --box-shadow-color: rgba(79, 166, 175, 0.2);
+
+  --input-active-txt-color: hsla(183, 100%, 15%, 1);
+  --input-default-txt-color: hsla(0, 0%, 100%, 1);
+  --input-subtext-txt-color: hsla(183, 15%, 56%, 1);
+  --input-result-txt-color: hsla(172, 67%, 45%, 1);
+  --input-not-active-txt-color: hsla(180, 18%, 40%, 1);
+
+  --button-selected-bg-color: hsla(172, 67%, 45%, 1);
+  --label-color: hsla(186, 14%, 43%, 1);
+  --input-icon-color: hsla(184, 19%, 68%, 1);
+
+  --logo-color: hsla(180, 25%, 32%, 1);
+}
+
+/* TODO: replace vh with small value */
+body {
+  font-family: "Space Mono", sans-serif;
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+}
