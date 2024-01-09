@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-color: 212 100% 50%;
+    --primary-hover-color: 212 100% 69%;
+    --txt-error-color: 0 91.7% 62.2%;
+
+    --bg-primary-color: 226.7 100% 98.2%;
+    --bg-secondary-color: 0 0% 99.6%;
+    --txt-main-color: 220 18.1% 16.3%;
+    --txt-primary-color: 216.8 34.8% 45.1%;
+    --txt-primary-hover-color: 220 18.1% 16.3%;
+    --txt-h1-color: 216.5 21.1% 21.4%;
+    --txt-date-color: 216.7 19.5% 50.8%;
+  }
+
+  :root.dark {
+    --bg-primary-color: 220 40.3% 13.1%;
+    --bg-secondary-color: 222.4 40.6% 19.8%;
+    --txt-main-color: 0 0% 100%;
+    --txt-primary-color: 0 0% 100%;
+    --txt-primary-hover-color: 222.4 44.2% 69.8%;
+    --txt-h1-color: 0 0% 100%;
+    --txt-date-color: 0 0% 100%;
+  }
+}
