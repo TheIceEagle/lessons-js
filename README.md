@@ -55,12 +55,12 @@ https://drive.proton.me/urls/J23PCJQEAW#z9CeQ6AbunR4
 
 ## Syllabus of repo
 
-1. [lesson1](./lesson1))
-2. [lesson2](./lesson2)
-3. [lesson3](./lesson3)
-4. [lesson4](./lesson4)
-5. [lesson5](./lesson5)
-6. lesson6
+1. [lesson1](./lesson1)) Intro & Primitives
+2. [lesson2](./lesson2) Arrays
+3. [lesson3](./lesson3) Object
+4. [lesson4](./lesson4) Functions 
+5. [lesson5](./lesson5) Functions Lexical Environment
+6. [lesson6](./lesson6) Typescript
 7. lesson7
 8. lesson8
 9. lesson9
